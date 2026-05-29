@@ -9,7 +9,7 @@ Ask in English. Get SQL, results, charts. No syntax to memorize.
 ![tests](https://img.shields.io/badge/tests-46%20passing-yellow)
 
 [![pypi](https://img.shields.io/pypi/v/clickr.svg)](https://pypi.org/project/clickr/)
-[![python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](#requirements)
+[![python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](#requirements)
 [![license](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)
 
 </div>
@@ -82,7 +82,7 @@ The LLM only sees your schema and the question, never your data rows. Local-only
 
 ## ✦ Requirements
 
-- Python 3.8 or newer
+- Python 3.9 or newer
 - A reachable ClickHouse instance (local or cloud)
 - One of: Ollama / llama.cpp running locally, an OpenAI API key, or an Anthropic API key
 - ~3.5 GB free for the bundled local model (first run only)
